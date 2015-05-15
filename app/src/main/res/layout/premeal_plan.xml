@@ -1,0 +1,481 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="fill">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Designed Meal Plan"
+            android:id="@+id/textViewTitle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:id="@+id/done2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serving Size"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:id="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:id="@+id/textView7" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sunday"
+        android:id="@+id/day1"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Breakfast"
+        android:id="@+id/textView27" />
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lunch"
+        android:id="@+id/textView28" />
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dinner"
+        android:id="@+id/textView29" />
+
+    <ListView
+        android:id="@+id/list3"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Monday"
+        android:id="@+id/day2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Breakfast"
+        android:id="@+id/textView30" />
+
+    <ListView
+        android:id="@+id/list4"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lunch"
+        android:id="@+id/textView42" /> //CHRIS MADE THIS FROM 36 TO 42
+
+    <ListView
+        android:id="@+id/list5"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dinner"
+        android:id="@+id/textView36" />
+
+    <ListView
+        android:id="@+id/list6"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tuesday"
+        android:id="@+id/day3"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Breakfast"
+        android:id="@+id/textView31" />
+
+    <ListView
+        android:id="@+id/list7"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lunch"
+        android:id="@+id/textView43" />  //CHRIS MADE THIS FROM 37 TO 43
+
+    <ListView
+        android:id="@+id/list8"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dinner"
+        android:id="@+id/textView37" />
+
+    <ListView
+        android:id="@+id/list9"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Wednesday"
+        android:id="@+id/day4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Breakfast"
+        android:id="@+id/textView32" />
+
+    <ListView
+        android:id="@+id/list10"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lunch"
+        android:id="@+id/textView44" />    //CHRIS MADE THIS FROM 38 TO 44
+
+    <ListView
+        android:id="@+id/list11"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dinner"
+        android:id="@+id/textView38" />
+
+    <ListView
+        android:id="@+id/list12"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thursday"
+        android:id="@+id/day5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Breakfast"
+        android:id="@+id/textView33" />
+
+    <ListView
+        android:id="@+id/list13"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lunch"
+        android:id="@+id/textView45" />  //CHRIS MADE THIS FROM 39 TO 45
+
+    <ListView
+        android:id="@+id/list14"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dinner"
+        android:id="@+id/textView39" />
+
+    <ListView
+        android:id="@+id/list15"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Friday"
+        android:id="@+id/day6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Breakfast"
+        android:id="@+id/textView34" />
+
+    <ListView
+        android:id="@+id/list16"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lunch"
+        android:id="@+id/textView46" />   //CHRIS MADE THIS FROM 40 TO 46
+
+    <ListView
+        android:id="@+id/list17"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dinner"
+        android:id="@+id/textView40" />
+
+    <ListView
+        android:id="@+id/list18"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Saturday"
+        android:id="@+id/day7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Breakfast"
+        android:id="@+id/textView35" />
+
+    <ListView
+        android:id="@+id/list19"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lunch"
+        android:id="@+id/textView47" />  //CHRIS MADE THIS FROM 41 TO 47
+
+    <ListView
+        android:id="@+id/list20"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dinner"
+        android:id="@+id/textView41" />
+
+    <ListView
+        android:id="@+id/list21"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:entries="@array/sections"
+        android:smoothScrollbar="false"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+</LinearLayout>
+</ScrollView>

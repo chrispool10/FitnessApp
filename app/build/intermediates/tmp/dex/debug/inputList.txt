@@ -1,0 +1,3 @@
+H:\mealplan7\MealPlan6\app\build\intermediates\classes\debug
+H:\mealplan7\MealPlan6\app\build\intermediates\pre-dexed\debug\android-sqlite-asset-helper-99822973d1bf2c8a09e826eb3217f40e6cb4bcb8.jar
+H:\mealplan7\MealPlan6\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ac111506c0c98cfe9c3ff489facbbf58ffd0a498.jar

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="H:\cosc 4950\MealPlan6\app\src\main\res"><file path="H:\cosc 4950\MealPlan6\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="H:\cosc 4950\MealPlan6\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="H:\cosc 4950\MealPlan6\app\src\main\res\values\strings.xml" qualifiers=""><string name="textview1">TextView</string><string name="textview">TextView</string><string-array name="workout_array">
+        <item>3</item>
+        <item>4</item>
+    </string-array><string name="action_settings">Settings</string><string name="app_name">MealPlan</string><string name="hello_world">Hello world!</string><string name="workoutperweek_prompt">Choose your workouts per week</string></file><file path="H:\cosc 4950\MealPlan6\app\src\main\res\values\array.xml" qualifiers=""><string-array name="sections">
+        <item>Pro Constructive</item>
+        <item>Con Constructive</item>
+        <item>1st Speaker Cross</item>
+        <item>Pro Rebbutal</item>
+        <item>Con Rebuttal</item>
+        <item>2nd Speaker Cross</item>
+        <item>Pro Summary</item>
+        <item>Con Summary</item>
+        <item>Grand Cross</item>
+        <item>Pro Final Focus</item>
+        <item>Con Final Focus</item>
+    </string-array></file><file name="ic_launcher" path="H:\cosc 4950\MealPlan6\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="preworkout_plan" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\preworkout_plan.xml" qualifiers="" type="layout"/><file name="row2" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\row2.xml" qualifiers="" type="layout"/><file name="layoutland" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\layoutland.xml" qualifiers="" type="layout"/><file name="view_pager" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\view_pager.xml" qualifiers="" type="layout"/><file name="activity1" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\activity1.xml" qualifiers="" type="layout"/><file name="settings" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\settings.xml" qualifiers="" type="layout"/><file name="activity_main" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="row" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\row.xml" qualifiers="" type="layout"/><file name="premeal_plan" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\premeal_plan.xml" qualifiers="" type="layout"/><file name="layout" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\layout.xml" qualifiers="" type="layout"/><file name="listitem" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\listitem.xml" qualifiers="" type="layout"/><file name="create_profile" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\create_profile.xml" qualifiers="" type="layout"/><file name="myweek" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\myweek.xml" qualifiers="" type="layout"/><file name="weeklymealplan" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\weeklymealplan.xml" qualifiers="" type="layout"/><file name="settings_frag" path="H:\cosc 4950\MealPlan6\app\src\main\res\layout\settings_frag.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="H:\cosc 4950\MealPlan6\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="H:\cosc 4950\MealPlan6\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="H:\cosc 4950\MealPlan6\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file path="H:\cosc 4950\MealPlan6\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="H:\cosc 4950\MealPlan6\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="H:\cosc 4950\MealPlan6\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file><file name="main" path="H:\cosc 4950\MealPlan6\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="menu_main" path="H:\cosc 4950\MealPlan6\app\src\main\res\menu\menu_main.xml" qualifiers="" type="menu"/></source><source path="H:\cosc 4950\MealPlan6\app\build\generated\res\rs\release"/><source path="H:\cosc 4950\MealPlan6\app\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="H:\cosc 4950\MealPlan6\app\src\release\res"/></dataSet><mergedItems/></merger>

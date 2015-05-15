@@ -1,0 +1,3 @@
+H:\cosc 4950\MealPlan6\app\build\intermediates\classes\release
+H:\cosc 4950\MealPlan6\app\build\intermediates\pre-dexed\release\android-sqlite-asset-helper-f5246079ec2b7ce4409576f7ae1cab164e5efc4a.jar
+H:\cosc 4950\MealPlan6\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-ac111506c0c98cfe9c3ff489facbbf58ffd0a498.jar

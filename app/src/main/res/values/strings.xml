@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MealPlan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview1">TextView</string>
+    <string name="textview">TextView</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="workoutperweek_prompt">Choose your workouts per week</string>
+    <string name="allergy_prompt">Please specify your allerigies</string>
+    <string name="meal_prompt">What meal would you like to add to?</string>
+
+    <string-array name="workout_array">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+
+</resources>

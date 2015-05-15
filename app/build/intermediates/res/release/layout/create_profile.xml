@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/createFrag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/next1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Username"
+            android:id="@+id/text1"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/username"
+            android:layout_alignBottom="@+id/text1"
+            android:layout_alignLeft="@+id/next1"
+            android:layout_alignStart="@+id/next1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Age"
+            android:id="@+id/text2"
+            android:layout_below="@+id/text1"
+            android:layout_alignLeft="@+id/text1"
+            android:layout_alignStart="@+id/text1"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/age"
+            android:layout_alignBottom="@+id/text2"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignStart="@+id/username" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Weight"
+            android:id="@+id/text3"
+            android:layout_below="@+id/text2"
+            android:layout_alignLeft="@+id/text2"
+            android:layout_alignStart="@+id/text2"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/weight"
+            android:layout_alignBottom="@+id/text3"
+            android:layout_alignLeft="@+id/age"
+            android:layout_alignStart="@+id/age" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Goal Weight"
+            android:id="@+id/text4"
+            android:layout_below="@+id/text3"
+            android:layout_alignLeft="@+id/text3"
+            android:layout_alignStart="@+id/text3"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/goalweight"
+            android:layout_alignBottom="@+id/text4"
+            android:layout_alignLeft="@+id/weight"
+            android:layout_alignStart="@+id/weight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Workouts per Week"
+            android:id="@+id/text5"
+            android:layout_below="@+id/text4"
+            android:layout_alignLeft="@+id/text4"
+            android:layout_alignStart="@+id/text4"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Budget"
+            android:id="@+id/text6"
+            android:layout_below="@+id/text5"
+            android:layout_alignLeft="@+id/text5"
+            android:layout_alignStart="@+id/text5"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/budget"
+            android:layout_alignBottom="@+id/text6"
+            android:layout_alignLeft="@+id/goalweight"
+            android:layout_alignStart="@+id/goalweight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Calorie Intake"
+            android:id="@+id/text7"
+            android:layout_below="@+id/text6"
+            android:layout_alignLeft="@+id/text6"
+            android:layout_alignStart="@+id/text6"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/calorieintake"
+            android:layout_alignBottom="@+id/text7"
+            android:layout_alignLeft="@+id/budget"
+            android:layout_alignStart="@+id/budget" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Allergies"
+            android:id="@+id/text8"
+            android:layout_below="@+id/text7"
+            android:layout_alignLeft="@+id/text7"
+            android:layout_alignStart="@+id/text7"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/allergies"
+            android:layout_alignBottom="@+id/text8"
+            android:layout_alignLeft="@+id/calorieintake"
+            android:layout_alignStart="@+id/calorieintake"
+            android:layout_alignRight="@+id/calorieintake"
+            android:layout_alignEnd="@+id/calorieintake" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:entries = "@array/workout_array"
+            android:prompt="@string/workoutperweek_prompt"
+            android:layout_above="@+id/budget"
+            android:layout_toRightOf="@+id/next1"
+            android:layout_toEndOf="@+id/next1"
+            android:spinnerMode="dropdown" />
+
+    </RelativeLayout>
+</LinearLayout>
+<!-- From: file:/H:/cosc%204950/MealPlan6/app/src/main/res/layout/create_profile.xml -->

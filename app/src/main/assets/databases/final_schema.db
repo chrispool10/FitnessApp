@@ -1,0 +1,328 @@
+BEGIN TRANSACTION;
+CREATE TABLE "trdMeal_7" (
+	`thirdMealID_7`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(thirdMealID_7)
+);
+CREATE TABLE "trdMeal_6" (
+	`thirdMealID_6`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(thirdMealID_6)
+);
+CREATE TABLE "trdMeal_5" (
+	`thirdMealID_5`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(thirdMealID_5)
+);
+CREATE TABLE "trdMeal_4" (
+	`thirdMealID_4`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(thirdMealID_4)
+);
+CREATE TABLE "trdMeal_3" (
+	`thirdMealID_3`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(thirdMealID_3)
+);
+CREATE TABLE "trdMeal_2" (
+	`thirdMealID_2`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(thirdMealID_2)
+);
+CREATE TABLE "trdMeal_1" (
+	`thirdMealID_1`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(thirdMealID_1)
+);
+CREATE TABLE "sndMeal_7" (
+	`secMealID_7`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(secMealID_7)
+);
+CREATE TABLE "sndMeal_6" (
+	`secMealID_6`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(secMealID_6)
+);
+CREATE TABLE "sndMeal_5" (
+	`secMealID_5`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(secMealID_5)
+);
+CREATE TABLE "sndMeal_4" (
+	`secMealID_4`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(secMealID_4)
+);
+CREATE TABLE "sndMeal_3" (
+	`secMealID_3`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(secMealID_3)
+);
+CREATE TABLE "sndMeal_2" (
+	`secMealID_2`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(secMealID_2)
+);
+CREATE TABLE "sndMeal_1" (
+	`secMealID_1`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(secMealID_1)
+);
+CREATE TABLE "fstMeal_7" (
+	`firstMealID_7`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(firstMealID_7)
+);
+CREATE TABLE "fstMeal_6" (
+	`firstMealID_6`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(firstMealID_6)
+);
+CREATE TABLE "fstMeal_5" (
+	`firstMealID_5`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(firstMealID_5)
+);
+CREATE TABLE "fstMeal_4" (
+	`firstMealID_4`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(firstMealID_4)
+);
+CREATE TABLE "fstMeal_3" (
+	`firstMealID_3`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(firstMealID_3)
+);
+CREATE TABLE "fstMeal_2" (
+	`firstMealID_2`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(firstMealID_2)
+);
+CREATE TABLE "fstMeal_1" (
+	`firstMealID_1`	INTEGER,
+	`fName`	varchar(20),
+	`Calories`	INTEGER,
+	`Protein`	INTEGER,
+	`Carbs`	INTEGER,
+	PRIMARY KEY(firstMealID_1)
+);
+CREATE TABLE "WorkoutDay_7" (
+	`WorkoutID_7`	INTEGER,
+	`wName_7`	varchar(20),
+	`wType_7`	varchar(20),
+	`Equipment_7`	varchar(5),
+	`Description_7`	varchar(100),
+	PRIMARY KEY(WorkoutID_7)
+);
+CREATE TABLE "WorkoutDay_6" (
+	`WorkoutID_6`	INTEGER,
+	`wName_6`	varchar(20),
+	`wType_6`	varchar(20),
+	`Equipment_6`	varchar(5),
+	`Description_6`	varchar(100),
+	PRIMARY KEY(WorkoutID_6)
+);
+CREATE TABLE "WorkoutDay_5" (
+	`WorkoutID_5`	INTEGER,
+	`wName_5`	varchar(20),
+	`wType_5`	varchar(20),
+	`Equipment_5`	varchar(5),
+	`Description_5`	varchar(100),
+	PRIMARY KEY(WorkoutID_5)
+);
+CREATE TABLE "WorkoutDay_4" (
+	`WorkoutID_4`	INTEGER,
+	`wName_4`	varchar(20),
+	`wType_4`	varchar(20),
+	`Equipment_4`	varchar(5),
+	`Description_4`	varchar(100),
+	PRIMARY KEY(WorkoutID_4)
+);
+CREATE TABLE "WorkoutDay_3" (
+	`WorkoutID_3`	INTEGER,
+	`wName_3`	varchar(20),
+	`wType_3`	varchar(20),
+	`Equipment_3`	varchar(5),
+	`Description_3`	varchar(100),
+	PRIMARY KEY(WorkoutID_3)
+);
+CREATE TABLE "WorkoutDay_2" (
+	`WorkoutID_2`	INTEGER,
+	`wName_2`	varchar(20),
+	`wType_2`	varchar(20),
+	`Equipment_2`	varchar(5),
+	`Description_2`	varchar(100),
+	PRIMARY KEY(WorkoutID_2)
+);
+CREATE TABLE "WorkoutDay_1" (
+	`WorkoutID_1`	INTEGER,
+	`wName_1`	varchar(20),
+	`wType_1`	varchar(20),
+	`Equipment_1`	varchar(5),
+	`Desciption_1`	varchar(100),
+	PRIMARY KEY(WorkoutID_1)
+);
+CREATE TABLE "Users" (
+	`userID`	INTEGER,
+	`userName`	varchar(30),
+	PRIMARY KEY(userID)
+);
+CREATE TABLE "Schedule" (
+	`ScheduleID`	int NOT NULL,
+	`fName`	varchar(20) NOT NULL,
+	`Calories`	int NOT NULL,
+	`Protein`	int NOT NULL,
+	`Carbs`	int NOT NULL,
+	`AllergyID`	int,
+	`fType`	varchar(20) NOT NULL,
+	PRIMARY KEY(ScheduleID)
+);
+INSERT INTO `Schedule` VALUES ('1','Apple','95','.5g','25g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('2','Banana','105','1.3g','27g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('3','Orange','62','1.2g','15g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('4','Blueberry','85','1.1g','21g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('5','Kiwi','110','2g','26g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('6','Grapes','62','.6g','16g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('7','Strawberry','47','1g','11g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('8','papaya','62','.7g','16g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('9','Avacado','234','2.9g','12g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('10','Peaches','61','1.4g','15g','0','Fruit');
+INSERT INTO `Schedule` VALUES ('11','Lettuce','5','.5g','1g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('12','Peas','118','8g','21g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('13','Broccoli','50','4.2g','10g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('14','Bell Pepper','30','1.3g','7g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('15','Spinach','7','.9g','1.1g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('16','Carrots','53','12g','1.2g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('17','Cucumber','16','.6g','3.6g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('18','Kale','33','2.9g','6g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('19','Tomatoes','32','1.6g','7g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('20','Asparagus','27','3g','5g','0','Vegetable');
+INSERT INTO `Schedule` VALUES ('21','Macadamia','204','2.24g','3.92g','5','Nut');
+INSERT INTO `Schedule` VALUES ('22','Hazelnut','178','4.24g','4.73g','5','Nut');
+INSERT INTO `Schedule` VALUES ('23','Pine Nut','191','3.88g','3.71g','5','Nut');
+INSERT INTO `Schedule` VALUES ('24','Walnut','185','4.32g','3.89g','5','Nut');
+INSERT INTO `Schedule` VALUES ('25','Almond','164','6.03g','5.6g','5','Nut');
+INSERT INTO `Schedule` VALUES ('26','Pistachio','158','5.84g','7.93g','5','Nut');
+INSERT INTO `Schedule` VALUES ('27','Cashew','157','5.17g','8.56g','5','Nut');
+INSERT INTO `Schedule` VALUES ('28','Pecan','196','2.6g','3.93g','5','Nut');
+INSERT INTO `Schedule` VALUES ('29','Peanut','166','6.71g','6.1g','2','Nut');
+INSERT INTO `Schedule` VALUES ('30','Brazil Nut','190','4g','3g','5','Nut');
+INSERT INTO `Schedule` VALUES ('31','Swiss Cheese','106','7.54g','1.51g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('32','Chedder','113','7g','.36g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('33','Mozzarella','85','6.29g','.62g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('34','Colby Jack','109','6.84g','.46g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('35','Monterey Jack','106','6.94g','.19g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('36','Provolone','98','7.16g','.6g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('37','Pepperjack','105','6.87g','.5g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('38','American','96','5.37g','1.97g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('39','Muenster','103','6.55g','.31g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('40','Non-fat Greek Yogurt','137','14.04g','18.82g','3','Dairy');
+INSERT INTO `Schedule` VALUES ('41','Lean Top Round Steak','230','38.97g','0g','9','Meat');
+INSERT INTO `Schedule` VALUES ('42','Grilled Chicken Breast','276','51.68g','0g','9','Meat');
+INSERT INTO `Schedule` VALUES ('43','Mahi-Mahi','100','21.76g','0g','9','Meat');
+INSERT INTO `Schedule` VALUES ('44','Pork Tenderloin','231','34.94g','0g','9','Meat');
+INSERT INTO `Schedule` VALUES ('45','Lean Ground Turkey','253','29.7g','0g','9','Meat');
+INSERT INTO `Schedule` VALUES ('46','Scallops','225','34.39g','4.97g','9','Meat');
+INSERT INTO `Schedule` VALUES ('47','Shrimp','181','34.76g','1.56g','9','Meat');
+INSERT INTO `Schedule` VALUES ('48','Tilapia','163','34.16g','0g','9','Meat');
+INSERT INTO `Schedule` VALUES ('49','Turkey Breast','177','29.04g','7.16g','9','Meat');
+INSERT INTO `Schedule` VALUES ('50','Tuna Fish','110','20.22g','0g','9','Meat');
+CREATE TABLE "Allworkout" (
+	`WorkoutID`	int NOT NULL,
+	`wName`	varchar(20) NOT NULL,
+	`wType`	varchar(20) NOT NULL,
+	`Equipment`	varchar(5) NOT NULL,
+	`Description`	varchar(100),
+	PRIMARY KEY(WorkoutID)
+);
+INSERT INTO `Allworkout` VALUES ('1','Dumbbell Curl','Bicep','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('2','Bench Dips','Tricep','No',NULL);
+INSERT INTO `Allworkout` VALUES ('3','Close-Grip Barbell
+
+Bench Press','Chest','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('4','Dumbbell Butterfly','Chest','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('5','Butterfly Machine','Chest','Yes ',NULL);
+INSERT INTO `Allworkout` VALUES ('6','Push-up','Chest','No',NULL);
+INSERT INTO `Allworkout` VALUES ('7','Sit-up','Abdominal','No',NULL);
+INSERT INTO `Allworkout` VALUES ('8','Ab Roller','Abdominal','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('9','Bottoms UP','Abdominal','No',NULL);
+INSERT INTO `Allworkout` VALUES ('10','Barbell Full Squat','Legs','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('11','Barbell Hip Thrust','Legs','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('12','Wall Sit','Legs','No',NULL);
+INSERT INTO `Allworkout` VALUES ('13','Cable Shoulder Press','Shoulders','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('14','Dumbbell Incline
+
+Shoulder Raise','Shoulders','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('15','Arm Circles','Shoulders','No',NULL);
+INSERT INTO `Allworkout` VALUES ('16','Pull-up','Back','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('17','Barbell Deadlift','Back','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('18','Bent Over Two-
+
+Dumbbell Row','Back','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('19','Run','Cardio','No',NULL);
+INSERT INTO `Allworkout` VALUES ('20','Freestyle Swim','Cardio','Yes',NULL);
+INSERT INTO `Allworkout` VALUES ('21','Biking','Cardio','Yes',NULL);
+;
+;
+COMMIT;
